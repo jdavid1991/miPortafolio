@@ -49,7 +49,7 @@ export const Header = () => {
               <br />
               realizando cursos y prácticas para adquirir bases sólidas en{" "}
               Docker, Kubernetes, <br /> Jenkins, Terraform y Linux, con enfoque
-              en automatización e infraestructura como <br /> código.
+              en automatización e infraestructura como <br /> código..
             </p>
             <div className="mt-5 flex gap-4 text-sm font-bold ">
               <button className="text-black bg-orange-400 hover:bg-orange-500 rounded-xl px-4 py-2 hover:cursor-pointer ">
