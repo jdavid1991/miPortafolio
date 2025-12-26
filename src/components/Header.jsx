@@ -3,7 +3,7 @@ import foto from "/assets/foto.png";
 export const Header = () => {
   return (
     <header>
-      <div className="h-140.25 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./assets/Develop.jpg')] bg-fill bg-center">
+      <div className="h-140.25 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/assets/Develop.jpg')] bg-fill bg-center">
         {/* nav */}
         <nav>
           <div className="container mx-auto flex justify-between items-center pt-8">
