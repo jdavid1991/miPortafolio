@@ -22,7 +22,7 @@ export const Experiencia = () => {
             </svg>
             <h2>Experiencia Laboral</h2>
           </div>
-          <div className="mt-7 text-white grid grid-cols-4">
+          <div className="mt-7 text-white grid grid-cols-4 justify-items-center">
             {projects.map((project) => (
               <div key={project.id}>
                 <img
