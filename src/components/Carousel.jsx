@@ -8,9 +8,12 @@ import "swiper/css/pagination";
 import aws from "../assets/aws.png";
 import backend from "../assets/backend.png";
 import fullstack from "../assets/fullstack.png";
+import java from "../assets/java.png";
+import linux from "../assets/linux.png";
+import javascript from "../assets/javascript.png";
 
 export default function Carousel() {
-  const slides = [aws, backend, fullstack];
+  const slides = [aws, backend, fullstack, java, linux, javascript];
 
   return (
     <div className="rounded-sm overflow-hidden">
