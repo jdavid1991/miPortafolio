@@ -18,17 +18,18 @@ export default function Carousel() {
   return (
     <div className="rounded-sm overflow-hidden">
       <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
+        modules={[Autoplay]}
+        slidesPerView="auto"
         spaceBetween={40}
         loop={true}
-        slidesPerView="auto"
+        
         speed={6000}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
-          pauseOnMouseEnter: false,
         }}
-        centeredSlides={true}
+        allowTouchMove={false}
+        className="swiper-linear"
       >
         {slides.map((img, index) => (
           <SwiperSlide key={index} style={{ width: "450px" }}>

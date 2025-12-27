@@ -28,7 +28,7 @@ export const Experiencia = () => {
                 <img
                   src={project.image}
                   alt="compufacil"
-                  className="rounded-2xl 2xl:w-90 2xl:h-52.5 w-75 h-45"
+                  className="rounded-2xl 2xl:w-90 2xl:h-45.5 w-75 h-45"
                 />
                 <div className="mt-2 text-base">
                   <p>Cargo: {project.cargo}</p>

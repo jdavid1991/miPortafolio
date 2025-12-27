@@ -20,7 +20,7 @@ body {
   padding: 0;
 }
 
-.swiper-wrapper {
+.swiper-linear .swiper-wrapper {
   transition-timing-function: linear !important;
 }
 
