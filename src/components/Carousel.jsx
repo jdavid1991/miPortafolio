@@ -22,7 +22,6 @@ export default function Carousel() {
         slidesPerView="auto"
         spaceBetween={40}
         loop={true}
-        
         speed={6000}
         autoplay={{
           delay: 0,
@@ -36,7 +35,9 @@ export default function Carousel() {
             <img
               src={img}
               alt={`slide-${index}`}
-              className="w-full h-80 rounded-sm"
+              className="sm:w-full w-78 h-80 rounded-sm"
+              draggable="false"
+              onContextMenu={(e) => e.preventDefault()}
             />
           </SwiperSlide>
         ))}

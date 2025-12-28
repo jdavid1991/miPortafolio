@@ -18,9 +18,11 @@ function App() {
   return (
     <>
       <Header />
-      <Experiencia />
-      <Academico />
-      <Tecnologias />
+      <main>
+        <Experiencia />
+        <Academico />
+        <Tecnologias />
+      </main>
       <Footer />
     </>
   );

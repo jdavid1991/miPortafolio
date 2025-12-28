@@ -1,27 +1,31 @@
 [
   {
-    "id": 1,
+    "id": 4,
+    "empresa": "macroproyectos",
     "image": "/assets/macro.png",
     "cargo": "Tecnico de soporte y pruebas senior",
     "proyecto": "Secretaria Distrital de Planeación",
     "tiempoActividad": "12 meses"
   },
   {
-    "id": 2,
+    "id": 3,
+    "empresa": "selcomp",
     "image": "/assets/selcomp.png",
     "cargo": "Tecnico de soporte",
     "proyecto": "ICBF",
     "tiempoActividad": "12 meses"
   },
   {
-    "id": 3,
+    "id": 2,
+    "empresa": "microhard",
     "image": "/assets/compufacil.jpg",
     "cargo": "Tecnico de soporte",
     "proyecto": "ICBF",
     "tiempoActividad": "12 meses"
   },
   {
-    "id": 4,
+    "id": 1,
+    "empresa": "compufacil",
     "image": "/assets/compufacil.jpg",
     "cargo": "Tecnico de soporte",
     "proyecto": "Fiscalia General de la Nación",

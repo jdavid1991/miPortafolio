@@ -3,7 +3,7 @@ export const Tecnologias = () => {
     <section>
       <div className="bg-[#0F172A]">
         <div className="container mx-auto">
-          <div className=" flex text-white pt-10 text-2xl gap-3 items-center font-bold ml-8">
+          <div className=" flex text-white sm:pt-10 pt-7 text-2xl gap-3 items-center font-bold sm:ml-8 p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -20,8 +20,8 @@ export const Tecnologias = () => {
             </svg>
             <h2>Tecnologias</h2>
           </div>
-          <div className="mt-10 flex justify-center items-center gap-8">
-            <div className="w-18">
+          <div className="grid grid-cols-4 justify-items-center sm:flex sm:mt-3 mt-5 p-1 sm:justify-center items-center sm:gap-8 gap-5">
+            <div className="sm:w-18 w-14">
               <svg xml:space="preserve" viewBox="0 0 304 182">
                 <path
                   fill="#ffffff"
@@ -37,7 +37,7 @@ export const Tecnologias = () => {
                 />
               </svg>
             </div>
-            <div className="w-18">
+            <div className="sm:w-18 w-14">
               <svg
                 width="75px"
                 height="75px"
@@ -74,7 +74,7 @@ export const Tecnologias = () => {
                 </g>
               </svg>
             </div>
-            <div className="w-18">
+            <div className="sm:w-18 w-14">
               <svg
                 viewBox="0 0 569 512"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -99,7 +99,7 @@ export const Tecnologias = () => {
                 </g>
               </svg>
             </div>
-            <div className="w-18">
+            <div className="sm:w-18 w-14">
               <svg fill="none" viewBox="0 0 54 33">
                 <g clip-path="url(#tailwindcss__a)">
                   <path
@@ -116,7 +116,7 @@ export const Tecnologias = () => {
                 </defs>
               </svg>
             </div>
-            <div className="w-18">
+            <div className="sm:w-18 w-14">
               <svg
                 width="75px"
                 height="75px"
@@ -202,7 +202,7 @@ export const Tecnologias = () => {
                 </g>
               </svg>
             </div>
-            <div className="w-18">
+            <div className="sm:w-18 w-14">
               <svg
                 width="75px"
                 height="75px"

@@ -5,7 +5,7 @@ export const Academico = () => {
     <section>
       <div className="bg-[#0F172A]">
         <div className="container mx-auto">
-          <div className=" flex text-white pt-10 text-2xl gap-3 items-center font-bold ml-8">
+          <div className=" flex text-white sm:pt-12 text-2xl gap-3 items-center font-bold sm:ml-8 p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -23,7 +23,7 @@ export const Academico = () => {
             <h2>Certificaciones Academicas</h2>
           </div>
         </div>
-        <div className="mt-10 w-[95%] mx-auto">
+        <div className="sm:mt-2 mt-3 w-[95%] mx-auto">
           <Carousel />
         </div>
       </div>
