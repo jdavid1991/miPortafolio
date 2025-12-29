@@ -3,7 +3,7 @@ export const Tecnologias = () => {
     <section>
       <div className="bg-[#0F172A]">
         <div className="container mx-auto">
-          <div className=" flex text-white sm:pt-10 pt-7 text-2xl gap-3 items-center font-bold sm:ml-8 p-2">
+          <div className=" flex text-white sm:pt-10 pt-7 2xl:text-2xl text-xl gap-3 items-center font-bold sm:ml-5 p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -18,7 +18,7 @@ export const Tecnologias = () => {
                 d="M4.5 12a7.5 7.5 0 0 0 15 0m-15 0a7.5 7.5 0 1 1 15 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077 1.41-.513m14.095-5.13 1.41-.513M5.106 17.785l1.15-.964m11.49-9.642 1.149-.964M7.501 19.795l.75-1.3m7.5-12.99.75-1.3m-6.063 16.658.26-1.477m2.605-14.772.26-1.477m0 17.726-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205 12 12m6.894 5.785-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495"
               />
             </svg>
-            <h2>Tecnologias</h2>
+            <h2>Tecnologías</h2>
           </div>
           <div className="grid grid-cols-4 justify-items-center sm:flex sm:mt-3 mt-5 p-1 sm:justify-center items-center sm:gap-8 gap-5">
             <div className="sm:w-18 w-14">

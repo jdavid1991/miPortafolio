@@ -28,10 +28,13 @@ export default function Carousel() {
           disableOnInteraction: false,
         }}
         allowTouchMove={false}
-        className="swiper-linear"
+        className="swiper-linear rounded-sm"
       >
         {slides.map((img, index) => (
-          <SwiperSlide key={index} style={{ width: "450px" }}>
+          <SwiperSlide
+            key={index}
+            style={{ width: "450px" }}
+          >
             <img
               src={img}
               alt={`slide-${index}`}

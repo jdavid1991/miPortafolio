@@ -7,8 +7,7 @@ export const Experiencia = () => {
       <div className="bg-[#0F172A]">
         <div className="hidden sm:flex flex-col container mx-auto">
           <div
-            id="certificaciones"
-            className=" flex text-white pt-10 text-2xl gap-3 items-center font-bold ml-8"
+            className=" flex text-white sm:pt-12 2xl:text-2xl text-xl gap-3 items-center font-bold sm:ml-8 sm:p-0 p-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +25,7 @@ export const Experiencia = () => {
             </svg>
             <h2>Experiencia Laboral</h2>
           </div>
-          <div className="mt-7 text-white grid grid-cols-4 justify-items-center">
+          {/* <div className="mt-7 text-white grid grid-cols-4 justify-items-center">
             {projects.map((project) => (
               <div key={project.id}>
                 <img
@@ -38,6 +37,36 @@ export const Experiencia = () => {
                   <p>Cargo: {project.cargo}</p>
                   <p>Proyecto: {project.proyecto}</p>
                   <p>Tiempo Actividad: {project.tiempoActividad}</p>
+                </div>
+              </div>
+            ))}
+          </div> */}
+          <div className="mt-15">
+            {projects.map((project) => (
+              <div
+                className="flex gap-10 space-y-7"
+                key={project.id}
+              >
+                <div className="text-sm w-70">
+                  <p className="font-bold text-lg">{project.fecha}</p>
+                  <p>Bogotá, Colombia</p>
+                </div>
+                <div class="flex flex-col items-center mt-1">
+                  <span class="w-2 h-2 bg-stone-400 rounded-full"></span>
+                  <span class="w-0.5 h-37 bg-stone-200"></span>
+                </div>
+                <div>
+                  <p className="text-lg font-semibold">{project.cargo}</p>
+                  <p className="text-base text-yellow-500 font-semibold capitalize">
+                    {project.empresa} -{" "}
+                    <span className="text-stone-400 text-sm">
+                      ( {project.proyecto} )
+                    </span>
+                  </p>
+                  <ul className="2xl:w-290 w-220 list-disc pl-6 mt-2 space-y-2 2xl:text-base text-sm ">
+                    <li >{project.funcion1}</li>
+                    <li >{project.funcion2}</li>
+                  </ul>
                 </div>
               </div>
             ))}
@@ -68,7 +97,7 @@ export const Experiencia = () => {
           <h2>Experiencia Laboral</h2>
         </div>
         <div className="mt-2">
-          < CarouselMobile />
+          <CarouselMobile />
         </div>
       </div>
       {/* Mobile */}

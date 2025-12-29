@@ -114,8 +114,8 @@ export const Header = () => {
           </div>
         </div>
 
+        {/* MOBILE */}
         <div className="sm:hidden">
-          {/* MOBILE */}
           <div className="container mx-auto flex justify-center mt-6">
             <img
               src={foto}

@@ -1,35 +1,47 @@
 [
   {
     "id": 4,
-    "empresa": "macroproyectos",
+    "fecha": "Octubre 2024 - Septiembre 2025",
+    "cargo": "Técnico de soporte y pruebas senior",
+    "empresa": "macroproyectos SAS",
+    "funcion1": "Brindar soporte y pruebas funcionales de aplicaciones, enfocado en asegurar la calidad y continuidad operativa de los sistemas. Revisión de logs, para la identificación de fallas en procesos de la aplicación en entornos de desarrollo y producción.",
+    "funcion2": "Instalar, configurar y afinar componentes de software requeridos para cumplir la arquitectura definida, en el documento de especificaciones técnicas de los procesos automatizados.",
     "image": "/assets/macro.png",
-    "cargo": "Tecnico de soporte y pruebas senior",
-    "proyecto": "Secretaria Distrital de Planeación",
+    "proyecto": "proyecto - Secretaria Distrital de Planeación",
     "tiempoActividad": "12 meses"
   },
   {
     "id": 3,
+    "fecha": "Febrero 2022 - Enero 2023",
+    "cargo": "Técnico de soporte",
     "empresa": "selcomp",
+    "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, TEAMS, SharePoint.)",
+    "funcion2" : "Documentación y escalamiento de tickets a segundo nivel, configuración de impresoras en red, y local, formateo de equipos Windows 10 e instalación de Office 365.",
     "image": "/assets/selcomp.png",
-    "cargo": "Tecnico de soporte",
-    "proyecto": "ICBF",
+    "proyecto": "Proyecto - Instituto de Bienestar Familiar",
     "tiempoActividad": "12 meses"
   },
   {
     "id": 2,
+    "fecha": "Mayo 2021 - Febrero 2022",
+    "cargo": "Técnico de soporte",
     "empresa": "microhard",
-    "image": "/assets/compufacil.jpg",
-    "cargo": "Tecnico de soporte",
-    "proyecto": "ICBF",
+    "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, TEAMS, SharePoint.)",
+    "funcion2" : "Documentación y escalamiento de tickets a segundo nivel, configuración de impresoras en red, y local, formateo de equipos Windows 10 e instalación de Office 365.",
+    "image": "/assets/selcomp.png",
+    "proyecto": "Proyecto - Instituto de Bienestar Familiar",
     "tiempoActividad": "12 meses"
   },
   {
     "id": 1,
+    "fecha": "Febrero 2015 - Julio 2020",
+    "cargo": "Técnico de soporte",
     "empresa": "compufacil",
+    "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, Skype Empresarial), configuración de impresoras en red, y local, Backups, formateo de equipos Windows 8.1/10 e instalación de Office 2016.",
+    "funcion2" : "Documentación y escalamiento de tickets a segundo nivel.",
     "image": "/assets/compufacil.jpg",
-    "cargo": "Tecnico de soporte",
-    "proyecto": "Fiscalia General de la Nación",
-    "tiempoActividad": "5 años y 6 meses"
+    "proyecto": "proyecto - fiscalia general de la nación",
+    "tiempoActividad": "12 meses"
   }
 
 ]
