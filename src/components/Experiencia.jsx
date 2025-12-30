@@ -72,8 +72,7 @@ export const Experiencia = () => {
       {/* Mobile */}
       <div className="sm:hidden bg-[#020617] p-2 ">
         <div
-          id="certificaciones"
-          className=" flex text-white pt-5 text-2xl gap-3 items-center font-bold"
+          className=" flex text-white pt-5 text-xl gap-3 items-center font-bold"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
