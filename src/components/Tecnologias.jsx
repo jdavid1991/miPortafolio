@@ -20,7 +20,7 @@ export const Tecnologias = () => {
             </svg>
             <h2>Tecnologías</h2>
           </div>
-          <div className="grid grid-cols-4 justify-items-center sm:flex sm:mt-3 mt-15 p-1 sm:justify-center items-center sm:gap-8 gap-5">
+          <div className="grid grid-cols-4 justify-items-center sm:flex sm:mt-3 mt-10 p-1 sm:justify-center items-center sm:gap-8 gap-5">
             <div className="sm:w-18 w-14">
               <svg xml:space="preserve" viewBox="0 0 304 182">
                 <path
