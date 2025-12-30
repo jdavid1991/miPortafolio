@@ -25,7 +25,12 @@ export const Header = () => {
               {/* <a href="">
                 <p>Experiencia</p>
               </a> */}
-              <a href="#certificaciones">Certificaciones</a>
+              <a
+                className="hover:underline underline-offset-4 decoration-green-400"
+                href="#certificaciones"
+              >
+                Certificaciones
+              </a>
             </div>
           </div>
         </nav>
