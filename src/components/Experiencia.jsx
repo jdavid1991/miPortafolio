@@ -47,12 +47,12 @@ export const Experiencia = () => {
                   <p>Bogotá, Colombia</p>
                 </div>
                 <div class="flex flex-col items-center mt-1">
-                  <span class="w-2 h-2 bg-stone-400 rounded-full"></span>
-                  <span class="w-0.5 h-37 bg-stone-200"></span>
+                  <span class="w-3 h-3 bg-yellow-500 rounded-full"></span>
+                  <span class="w-0.5 h-37 bg-stone-400"></span>
                 </div>
                 <div>
                   <p className="text-lg font-semibold">{project.cargo}</p>
-                  <p className="text-base text-yellow-500 font-semibold capitalize">
+                  <p className="text-base text-yellow-400 font-semibold capitalize">
                     {project.empresa} -{" "}
                     <span className="text-stone-400 text-sm">
                       ( {project.proyecto} )

@@ -7,7 +7,7 @@
     "funcion1": "Brindar soporte y pruebas funcionales de aplicaciones, enfocado en asegurar la calidad y continuidad operativa de los sistemas. Revisión de logs, para la identificación de fallas en procesos de la aplicación en entornos de desarrollo y producción.",
     "funcion2": "Instalar, configurar y afinar componentes de software requeridos para cumplir la arquitectura definida, en el documento de especificaciones técnicas de los procesos automatizados.",
     "image": "/assets/macro.png",
-    "proyecto": "proyecto - Secretaria Distrital de Planeación",
+    "proyecto": "Secretaria Distrital de Planeación",
     "tiempoActividad": "12 meses"
   },
   {
@@ -18,7 +18,7 @@
     "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, TEAMS, SharePoint.)",
     "funcion2" : "Documentación y escalamiento de tickets a segundo nivel, configuración de impresoras en red, y local, formateo de equipos Windows 10 e instalación de Office 365.",
     "image": "/assets/selcomp.png",
-    "proyecto": "Proyecto - Instituto de Bienestar Familiar",
+    "proyecto": "Instituto de Bienestar Familiar",
     "tiempoActividad": "12 meses"
   },
   {
@@ -29,7 +29,7 @@
     "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, TEAMS, SharePoint.)",
     "funcion2" : "Documentación y escalamiento de tickets a segundo nivel, configuración de impresoras en red, y local, formateo de equipos Windows 10 e instalación de Office 365.",
     "image": "/assets/selcomp.png",
-    "proyecto": "Proyecto - Instituto de Bienestar Familiar",
+    "proyecto": "Instituto de Bienestar Familiar",
     "tiempoActividad": "12 meses"
   },
   {
@@ -40,7 +40,7 @@
     "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, Skype Empresarial), configuración de impresoras en red, y local, Backups, formateo de equipos Windows 8.1/10 e instalación de Office 2016.",
     "funcion2" : "Documentación y escalamiento de tickets a segundo nivel.",
     "image": "/assets/compufacil.jpg",
-    "proyecto": "proyecto - fiscalia general de la nación",
+    "proyecto": "fiscalia general de la nación",
     "tiempoActividad": "12 meses"
   }
 

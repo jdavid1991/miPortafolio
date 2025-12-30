@@ -59,10 +59,14 @@ export const CarouselMobile = () => {
                     ( {project.proyecto} )
                   </span>
                 </p>
-                <ul className="list-disc mt-2 space-y-2 text-sm ">
+                {/* <ul className="list-disc mt-2 space-y-2 text-sm ">
                   <li>{project.funcion1}</li>
                   <li>{project.funcion2}</li>
-                </ul>
+                </ul> */}
+                <div className="pl-1 mt-2 space-y-2 text-sm">
+                  <p>{project.funcion1}</p>
+                  <p>{project.funcion2}</p>
+                </div>
               </div>
             </div>
           </SwiperSlide>

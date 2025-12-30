@@ -60,8 +60,8 @@ export const Header = () => {
               Docker, Kubernetes, <br /> Jenkins, Terraform y Linux, con enfoque
               en automatización e infraestructura como <br /> código.
             </p>
-            <div className="mt-5 flex gap-4 text-sm font-bold ">
-              <button className="text-black bg-orange-500 hover:bg-orange-400 rounded-xl px-4 py-2 hover:cursor-pointer ">
+            <div className="mt-9 flex gap-4 text-sm font-bold ">
+              {/* <button className="text-black bg-orange-500 hover:bg-orange-400 rounded-xl px-4 py-2 hover:cursor-pointer ">
                 <a
                   className="rounded-xl flex items-center gap-1"
                   href="/hv-JuanDavidRamirez.pdf"
@@ -83,26 +83,20 @@ export const Header = () => {
                   </svg>
                   Descargar CV
                 </a>
-              </button>
-              <button className="text-black bg-green-500 hover:bg-green-400 rounded-xl px-4 py-2 hover:cursor-pointer flex items-center gap-1">
+              </button> */}
+              <button className="text-white bg-gray-900 hover:bg-gray-800 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-2 outline-green-400">
                 <a
-                  className="rounded-xl flex items-center gap-1"
+                  className="rounded-xl flex items-center gap-2 text-base"
                   href="https://wa.me/573001234567"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="size-5"
-                  >
+                  <svg viewBox="0 0 360 362" width="20" height="20">
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                      fill="#25D366"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M307.546 52.566C273.709 18.684 228.706.017 180.756 0 81.951 0 1.538 80.404 1.504 179.235c-.017 31.594 8.242 62.432 23.928 89.609L0 361.736l95.024-24.925c26.179 14.285 55.659 21.805 85.655 21.814h.077c98.788 0 179.21-80.413 179.244-179.244.017-47.898-18.608-92.926-52.454-126.807v-.008Zm-126.79 275.788h-.06c-26.73-.008-52.952-7.194-75.831-20.765l-5.44-3.231-56.391 14.791 15.05-54.981-3.542-5.638c-14.912-23.721-22.793-51.139-22.776-79.286.035-82.14 66.867-148.973 149.051-148.973 39.793.017 77.198 15.53 105.328 43.695 28.131 28.157 43.61 65.596 43.593 105.398-.035 82.149-66.867 148.982-148.982 148.982v.008Zm81.719-111.577c-4.478-2.243-26.497-13.073-30.606-14.568-4.108-1.496-7.09-2.243-10.073 2.243-2.982 4.487-11.568 14.577-14.181 17.559-2.613 2.991-5.226 3.361-9.704 1.117-4.477-2.243-18.908-6.97-36.02-22.226-13.313-11.878-22.304-26.54-24.916-31.027-2.613-4.486-.275-6.91 1.959-9.136 2.011-2.011 4.478-5.234 6.721-7.847 2.244-2.613 2.983-4.486 4.478-7.469 1.496-2.991.748-5.603-.369-7.847-1.118-2.243-10.073-24.289-13.812-33.253-3.636-8.732-7.331-7.546-10.073-7.692-2.613-.13-5.595-.155-8.586-.155-2.991 0-7.839 1.118-11.947 5.604-4.108 4.486-15.677 15.324-15.677 37.361s16.047 43.344 18.29 46.335c2.243 2.991 31.585 48.225 76.51 67.632 10.684 4.615 19.029 7.374 25.535 9.437 10.727 3.412 20.49 2.931 28.208 1.779 8.604-1.289 26.498-10.838 30.228-21.298 3.73-10.46 3.73-19.433 2.613-21.298-1.117-1.865-4.108-2.991-8.586-5.234l.008-.017Z"
                     />
                   </svg>
                   Contáctame
@@ -127,7 +121,7 @@ export const Header = () => {
             <h1 className="text-4xl text-white text-center font-bold">
               Hola, Soy Juan David
             </h1>
-            <p className="mt-2 text-stone-200">
+            <p className="mt-5 text-stone-200">
               <span className="text-xl font-semibold text-yellow-200">
                 Ingeniero de sistemas
               </span>{" "}
@@ -142,8 +136,8 @@ export const Header = () => {
               automatización e infraestructura como código.
             </p>
           </div>
-          <div className="mt-5 flex gap-4 text-sm font-bold justify-center ">
-            <button className="text-black bg-orange-400 hover:bg-orange-500 rounded-xl px-4 py-2 hover:cursor-pointer ">
+          <div className="mt-7 flex gap-4 text-sm font-bold justify-center ">
+            {/* <button className="text-black bg-orange-400 hover:bg-orange-500 rounded-xl px-4 py-2 hover:cursor-pointer ">
               <a
                 className="rounded-xl flex items-center gap-1"
                 href="/hv-JuanDavidRamirez.pdf"
@@ -165,26 +159,21 @@ export const Header = () => {
                 </svg>
                 Descargar CV
               </a>
-            </button>
-            <button className="text-black bg-green-400 hover:bg-green-500 rounded-xl px-4 py-2 hover:cursor-pointer flex items-center gap-1">
+            </button> */}
+
+            <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-2 outline-green-400">
               <a
-                className="rounded-xl flex items-center gap-1"
+                className="rounded-xl flex items-center gap-2 text-base"
                 href="https://wa.me/573001234567"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-5"
-                >
+                <svg viewBox="0 0 360 362" width="20" height="20">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                    fill="#25D366"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M307.546 52.566C273.709 18.684 228.706.017 180.756 0 81.951 0 1.538 80.404 1.504 179.235c-.017 31.594 8.242 62.432 23.928 89.609L0 361.736l95.024-24.925c26.179 14.285 55.659 21.805 85.655 21.814h.077c98.788 0 179.21-80.413 179.244-179.244.017-47.898-18.608-92.926-52.454-126.807v-.008Zm-126.79 275.788h-.06c-26.73-.008-52.952-7.194-75.831-20.765l-5.44-3.231-56.391 14.791 15.05-54.981-3.542-5.638c-14.912-23.721-22.793-51.139-22.776-79.286.035-82.14 66.867-148.973 149.051-148.973 39.793.017 77.198 15.53 105.328 43.695 28.131 28.157 43.61 65.596 43.593 105.398-.035 82.149-66.867 148.982-148.982 148.982v.008Zm81.719-111.577c-4.478-2.243-26.497-13.073-30.606-14.568-4.108-1.496-7.09-2.243-10.073 2.243-2.982 4.487-11.568 14.577-14.181 17.559-2.613 2.991-5.226 3.361-9.704 1.117-4.477-2.243-18.908-6.97-36.02-22.226-13.313-11.878-22.304-26.54-24.916-31.027-2.613-4.486-.275-6.91 1.959-9.136 2.011-2.011 4.478-5.234 6.721-7.847 2.244-2.613 2.983-4.486 4.478-7.469 1.496-2.991.748-5.603-.369-7.847-1.118-2.243-10.073-24.289-13.812-33.253-3.636-8.732-7.331-7.546-10.073-7.692-2.613-.13-5.595-.155-8.586-.155-2.991 0-7.839 1.118-11.947 5.604-4.108 4.486-15.677 15.324-15.677 37.361s16.047 43.344 18.29 46.335c2.243 2.991 31.585 48.225 76.51 67.632 10.684 4.615 19.029 7.374 25.535 9.437 10.727 3.412 20.49 2.931 28.208 1.779 8.604-1.289 26.498-10.838 30.228-21.298 3.73-10.46 3.73-19.433 2.613-21.298-1.117-1.865-4.108-2.991-8.586-5.234l.008-.017Z"
                   />
                 </svg>
                 Contáctame
