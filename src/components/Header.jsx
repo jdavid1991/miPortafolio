@@ -4,7 +4,7 @@ export const Header = () => {
   
   return (
     <header>
-      <div className="2xl:h-140.25 sm:h-130.25 h-138 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/assets/Develop.jpg')] bg-fill bg-center">
+      <div className="2xl:h-160.25 sm:h-145.25 h-148 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url('/assets/Develop.webp')] bg-fill bg-center">
         {/* nav */}
         <nav>
           <div className="container mx-auto flex justify-between items-center pt-8 p-2">
@@ -25,9 +25,7 @@ export const Header = () => {
               {/* <a href="">
                 <p>Experiencia</p>
               </a> */}
-              <a href="#certificaciones">
-                <p>Certificaciones</p>
-              </a>
+              <a href="#certificaciones">Certificaciones</a>
             </div>
           </div>
         </nav>
@@ -63,7 +61,7 @@ export const Header = () => {
               en automatización e infraestructura como <br /> código.
             </p>
             <div className="mt-5 flex gap-4 text-sm font-bold ">
-              <button className="text-black bg-orange-400 hover:bg-orange-500 rounded-xl px-4 py-2 hover:cursor-pointer ">
+              <button className="text-black bg-orange-500 hover:bg-orange-400 rounded-xl px-4 py-2 hover:cursor-pointer ">
                 <a
                   className="rounded-xl flex items-center gap-1"
                   href="/hv-JuanDavidRamirez.pdf"
@@ -86,7 +84,7 @@ export const Header = () => {
                   Descargar CV
                 </a>
               </button>
-              <button className="text-black bg-green-400 hover:bg-green-500 rounded-xl px-4 py-2 hover:cursor-pointer flex items-center gap-1">
+              <button className="text-black bg-green-500 hover:bg-green-400 rounded-xl px-4 py-2 hover:cursor-pointer flex items-center gap-1">
                 <a
                   className="rounded-xl flex items-center gap-1"
                   href="https://wa.me/573001234567"

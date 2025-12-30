@@ -4,11 +4,9 @@ import { CarouselMobile } from "./CarouselMobile";
 export const Experiencia = () => {
   return (
     <section>
-      <div className="bg-[#0F172A]">
+      <div className="bg-slate-950">
         <div className="hidden sm:flex flex-col container mx-auto">
-          <div
-            className=" flex text-white sm:pt-12 2xl:text-2xl text-xl gap-3 items-center font-bold sm:ml-8 sm:p-0 p-2"
-          >
+          <div className=" flex text-white sm:pt-12 2xl:text-2xl text-xl gap-3 items-center font-bold sm:ml-8 sm:p-0 p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -43,10 +41,7 @@ export const Experiencia = () => {
           </div> */}
           <div className="mt-15">
             {projects.map((project) => (
-              <div
-                className="flex gap-10 space-y-7"
-                key={project.id}
-              >
+              <div className="flex gap-10 space-y-7" key={project.id}>
                 <div className="text-sm w-70">
                   <p className="font-bold text-lg">{project.fecha}</p>
                   <p>Bogotá, Colombia</p>
@@ -64,8 +59,8 @@ export const Experiencia = () => {
                     </span>
                   </p>
                   <ul className="2xl:w-290 w-220 list-disc pl-6 mt-2 space-y-2 2xl:text-base text-sm ">
-                    <li >{project.funcion1}</li>
-                    <li >{project.funcion2}</li>
+                    <li>{project.funcion1}</li>
+                    <li>{project.funcion2}</li>
                   </ul>
                 </div>
               </div>
@@ -75,7 +70,7 @@ export const Experiencia = () => {
       </div>
 
       {/* Mobile */}
-      <div className="sm:hidden bg-[#0F172A] p-2 ">
+      <div className="sm:hidden bg-[#020617] p-2 ">
         <div
           id="certificaciones"
           className=" flex text-white pt-5 text-2xl gap-3 items-center font-bold"

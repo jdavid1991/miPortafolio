@@ -8,7 +8,7 @@ body {
 }
 
 body {
-  background: #0F172A;
+  background: #020617;
   font-family:
     Helvetica Neue,
     Helvetica,
@@ -32,7 +32,7 @@ body {
 .swiper-slide {
   
   font-size: 18px;
-  background: #0F172A;
+  background: #020617;
   
   /* Center slide text vertically */
   display: flex;
