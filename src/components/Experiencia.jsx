@@ -6,7 +6,7 @@ export const Experiencia = () => {
     <section>
       <div className="bg-slate-950">
         <div className="hidden sm:flex flex-col container mx-auto">
-          <div className=" flex text-white sm:pt-12 2xl:text-2xl text-xl gap-3 items-center font-bold sm:ml-8 sm:p-0 p-2">
+          <div className=" flex text-white sm:pt-12 2xl:text-2xl text-xl gap-2 items-center font-bold sm:ml-8 sm:p-0 p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -23,23 +23,7 @@ export const Experiencia = () => {
             </svg>
             <h2>Experiencia Laboral</h2>
           </div>
-          {/* <div className="mt-7 text-white grid grid-cols-4 justify-items-center">
-            {projects.map((project) => (
-              <div key={project.id}>
-                <img
-                  src={project.image}
-                  alt={project.empresa}
-                  className="rounded-lg 2xl:w-90 2xl:h-45.5 w-75 h-45"
-                />
-                <div className="mt-2 ml-2 2xl:text-base text-sm">
-                  <p>Cargo: {project.cargo}</p>
-                  <p>Proyecto: {project.proyecto}</p>
-                  <p>Tiempo Actividad: {project.tiempoActividad}</p>
-                </div>
-              </div>
-            ))}
-          </div> */}
-          <div className="mt-15">
+          <div className=" mt-15">
             {projects.map((project) => (
               <div className="flex gap-10 space-y-7" key={project.id}>
                 <div className="text-sm w-70">
@@ -71,9 +55,7 @@ export const Experiencia = () => {
 
       {/* Mobile */}
       <div className="sm:hidden bg-[#020617] p-2 ">
-        <div
-          className=" flex text-white pt-5 text-xl gap-3 items-center font-bold"
-        >
+        <div className=" flex text-white pt-5 text-xl gap-2 items-center font-bold">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

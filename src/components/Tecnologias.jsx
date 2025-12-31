@@ -3,7 +3,7 @@ export const Tecnologias = () => {
     <section>
       <div className="bg-[#0F172A]">
         <div className="container mx-auto">
-          <div className=" flex text-white sm:pt-10 pt-7 2xl:text-2xl text-xl gap-3 items-center font-bold sm:ml-5 p-2">
+          <div className=" flex text-white sm:pt-10 pt-7 2xl:text-2xl text-xl gap-2 items-center font-bold sm:ml-8 p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

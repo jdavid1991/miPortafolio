@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer>
       <div className="bg-[#0F172A] ">
         <div>
-          <p className="text-center sm:pt-25 pt-15 pb-4 text-slate-300 text-sm font-semibold">
+          <p className="text-center sm:pt-25 pt-15 pb-4 text-slate-300 text-sm">
             © 2024 - {year} Portafolio elaborado por Juan David R
           </p>
         </div>

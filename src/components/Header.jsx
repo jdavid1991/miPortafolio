@@ -4,7 +4,7 @@ export const Header = () => {
   
   return (
     <header>
-      <div className="2xl:h-160.25 sm:h-145.25 h-148 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url('/assets/Develop.webp')] bg-fill bg-center">
+      <div className="2xl:h-222.25 sm:h-173 h-194 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url('/assets/Develop.webp')] bg-contain sm:bg-cover sm:bg-center bg-fixed">
         {/* nav */}
         <nav>
           <div className="container mx-auto flex justify-between items-center pt-8 p-2">
@@ -21,12 +21,21 @@ export const Header = () => {
                 <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0" />
               </svg>
             </div>
-            <div className="hidden text-xl font-semibold text-stone-200 hover:text-white sm:flex gap-5 hover:cursor-pointer ">
-              {/* <a href="">
-                <p>Experiencia</p>
+            <div className="hidden 2xl:text-xl text-stone-200 text-base font-semibold  sm:flex gap-5 hover:cursor-pointer ">
+              {/* <a
+                className="hover:text-white hover:underline underline-offset-4 decoration-green-400 "
+                href=""
+              >
+                Proyectos
+              </a>
+              <a
+                className="hover:text-white hover:underline underline-offset-4 decoration-green-400 "
+                href=""
+              >
+                Badges
               </a> */}
               <a
-                className="hover:underline underline-offset-4 decoration-green-400"
+                className="hover:text-white hover:underline underline-offset-4 decoration-green-400 "
                 href="#certificaciones"
               >
                 Certificaciones
@@ -34,18 +43,20 @@ export const Header = () => {
             </div>
           </div>
         </nav>
+        {/* nav */}
+
         {/* información */}
-        <div className="hidden container mx-auto sm:flex pl-20 mt-20 gap-4">
+        <div className="hidden container mx-auto sm:flex 2xl:w-[74%] w-[82%] 2xl:mt-40 mt-25 gap-4">
           <div>
             <img
               src={foto}
               alt="foto"
-              className="w-35.5 rounded-full"
+              className="2xl:w-30.5 w-25.5 rounded-full"
               draggable="false"
               onContextMenu={(e) => e.preventDefault()}
             />
           </div>
-          <div className="text-white ml-4 2xl:text-2xl text-xl ">
+          <div className="text-white 2xl:text-2xl text-xl 2xl:w-300 w-245 ">
             <h1 className="2xl:text-5xl text-4xl font-bold">
               Hola, Soy Juan David
             </h1>
@@ -53,43 +64,26 @@ export const Header = () => {
               <span className="text-2xl font-semibold text-yellow-200">
                 Ingeniero de sistemas
               </span>{" "}
-              con +6 años de experiencia realizando soporte tecnico <br />
-              en diferentes entidades del estado, de los cuales 1 año realizando
-              soporte en <br />
-              aplicaciones.
+              con +6 años de experiencia en IT, especializado en soporte técnico
+              (nivel I y II), configuración de hardware y software, telefonía
+              IP, migración de equipos, respaldo de datos y administración de
+              impresoras, así como configuración de Microsoft 365 (Outlook,
+              SharePoint, OneDrive).
             </p>
             <p className="mt-4 text-stone-200">
-              Actualmente me encuentro en formación continua en el área DevOps,{" "}
-              <br />
-              realizando cursos y prácticas para adquirir bases sólidas en{" "}
-              Docker, Kubernetes, <br /> Jenkins, Terraform y Linux, con enfoque
-              en automatización e infraestructura como <br /> código.
+              1 año de experiencia realizando soporte y pruebas funcionales de
+              aplicaciones, enfocado en asegurar la calidad y continuidad
+              operativa del sistema, revisión de logs para la identificación de
+              fallas en procesos en ambientes de producción y preproducción.
+            </p>
+            <p className="mt-4 text-stone-200">
+              Actualmente me encuentro en formación continua en el área DevOps,
+              realizando cursos y prácticas para adquirir bases sólidas en
+              Docker, Kubernetes, Jenkins, Terraform y Linux, con enfoque en
+              automatización e infraestructura como código.
             </p>
             <div className="mt-9 flex gap-4 text-sm font-bold ">
-              {/* <button className="text-black bg-orange-500 hover:bg-orange-400 rounded-xl px-4 py-2 hover:cursor-pointer ">
-                <a
-                  className="rounded-xl flex items-center gap-1"
-                  href="/hv-JuanDavidRamirez.pdf"
-                  download
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="size-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-                    />
-                  </svg>
-                  Descargar CV
-                </a>
-              </button> */}
-              <button className="text-white bg-gray-900 hover:bg-gray-800 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-2 outline-green-400">
+              <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-2 outline-green-400">
                 <a
                   className="rounded-xl flex items-center gap-2 text-base"
                   href="https://wa.me/573001234567"
@@ -110,6 +104,7 @@ export const Header = () => {
             </div>
           </div>
         </div>
+        {/* información */}
 
         {/* MOBILE */}
         <div className="sm:hidden">
@@ -130,9 +125,17 @@ export const Header = () => {
               <span className="text-xl font-semibold text-yellow-200">
                 Ingeniero de sistemas
               </span>{" "}
-              con +6 años de experiencia realizando soporte tecnico en
-              diferentes entidades del estado, de los cuales 1 año realizando
-              soporte en aplicaciones.
+              con +6 años de experiencia en IT, especializado en soporte técnico
+              (nivel I y II), configuración de hardware y software, telefonía
+              IP, migración de equipos, respaldo de datos y administración de
+              impresoras, así como configuración de Microsoft 365 (Outlook,
+              SharePoint, OneDrive).
+            </p>
+            <p className="mt-4 text-stone-200">
+              1 año de experiencia realizando soporte y pruebas funcionales de
+              aplicaciones, enfocado en asegurar la calidad y continuidad
+              operativa del sistema, revisión de logs para la identificación de
+              fallas en procesos en ambientes de producción y preproducción.
             </p>
             <p className="mt-4 text-stone-200">
               Actualmente me encuentro en formación continua en el área DevOps,
@@ -142,30 +145,6 @@ export const Header = () => {
             </p>
           </div>
           <div className="mt-7 flex gap-4 text-sm font-bold justify-center ">
-            {/* <button className="text-black bg-orange-400 hover:bg-orange-500 rounded-xl px-4 py-2 hover:cursor-pointer ">
-              <a
-                className="rounded-xl flex items-center gap-1"
-                href="/hv-JuanDavidRamirez.pdf"
-                download
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-5"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-                  />
-                </svg>
-                Descargar CV
-              </a>
-            </button> */}
-
             <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-2 outline-green-400">
               <a
                 className="rounded-xl flex items-center gap-2 text-base"
