@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/docker-kubernetes.webp",
+    "titulo": "backend docker - kubernetes",
+    "tecnologia1": "/assets/docker.svg",
+    "tecnologiaNombre1": "Docker",
+    "tecnologia2": "/assets/kubernetes.svg",
+    "tecnologiaNombre2": "Kubernetes",
+    "descripcion": "Proyecto microservicios Backend realizado en Spring Boot, persistiendo datos en postgres y MySQL, desplegado en contenedores Docker con Kubernetes.",
+    "codeGitHubURL": "#",
+    "bg": "#e0234f"
+  },
+  {
+    "id": 2,
+   "image": "/assets/proyectoJava.webp",
+    "titulo": "Aplicación GUI para la gestión de libros",
+    "tecnologia1": "/assets/java.svg",
+    "tecnologiaNombre1": "Java",
+    "tecnologia2": "/assets/MySQL_dark.svg",
+    "tecnologiaNombre2": "MySQL",
+    "descripcion": "CRUD en el lenjuage de Java, el cual permite crear, actualizar, eliminar y consultar desde una base de datos en MySQL",
+    "codeGitHubURL": "https://github.com/jdavid1991/gestion-de-libros-Java",
+    "bg": "#533f80"
+  }
+]

@@ -22,13 +22,13 @@ export const Header = () => {
               </svg>
             </div>
             <div className="hidden 2xl:text-xl text-stone-200 text-base font-semibold  sm:flex gap-5 hover:cursor-pointer ">
-              {/* <a
+              <a
                 className="hover:text-white hover:underline underline-offset-4 decoration-green-400 "
-                href=""
+                href="#proyectos"
               >
                 Proyectos
               </a>
-              <a
+              {/* <a
                 className="hover:text-white hover:underline underline-offset-4 decoration-green-400 "
                 href=""
               >
@@ -83,7 +83,7 @@ export const Header = () => {
               automatización e infraestructura como código.
             </p>
             <div className="mt-9 flex gap-4 text-sm font-bold ">
-              <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-2 outline-green-400">
+              <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-1 outline-green-400">
                 <a
                   className="rounded-xl flex items-center gap-2 text-base"
                   href="https://wa.me/573001234567"
@@ -145,7 +145,7 @@ export const Header = () => {
             </p>
           </div>
           <div className="mt-7 flex gap-4 text-sm font-bold justify-center ">
-            <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-2 outline-green-400">
+            <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-1 outline-green-400">
               <a
                 className="rounded-xl flex items-center gap-2 text-base"
                 href="https://wa.me/573001234567"
