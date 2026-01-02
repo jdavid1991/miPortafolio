@@ -5,14 +5,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import backend from "/assets/backend.png";
+import UdemyDevOps from "/assets/UdemyDevOps.webp";
 import fullstack from "/assets/fullstack.png";
 import java from "/assets/java.png";
 import linux from "/assets/linux.webp";
+import itilv4 from "/assets/itilv4.webp";
 
 
 export default function Carousel() {
-  const slides = [backend, fullstack, java, linux];
+  const slides = [fullstack, java, linux, itilv4, UdemyDevOps];
 
   return (
     <div className="rounded-sm overflow-hidden">

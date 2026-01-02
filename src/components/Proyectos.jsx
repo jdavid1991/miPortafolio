@@ -3,7 +3,7 @@ import proyectos from "../data/proyectos.json";
 export const Proyectos = () => {
   return (
     <section>
-      <div className="bg-[#0F172A]">
+      <div className="pb-6   bg-[#0F172A]">
         <div className="">
           <div className="container mx-auto">
             <div

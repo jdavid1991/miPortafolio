@@ -3,7 +3,10 @@ export const Badges = () => {
     <section>
       <div className="bg-slate-950">
         <div className="container mx-auto">
-          <div id="badges" className=" flex text-white sm:pt-15 pt-8 2xl:text-2xl text-xl gap-2 items-center font-bold sm:ml-5 p-2">
+          <div
+            id="badges"
+            className=" flex text-white sm:pt-15 pt-8 2xl:text-2xl text-xl gap-2 items-center font-bold sm:ml-5 p-2"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -20,7 +23,7 @@ export const Badges = () => {
             </svg>
             <h2>Badges</h2>
           </div>
-          <div className="pb-10 sm:mt-10 mt-5 flex justify-center gap-8">
+          <div className="pb-10 sm:mt-10 mt-5 grid grid-cols-3 justify-items-center">
             <div>
               <a
                 href="https://www.credly.com/badges/0664864d-c996-44b1-8290-096c605ff4d5/public_url"
@@ -30,6 +33,7 @@ export const Badges = () => {
                 <img
                   src="/assets/certificado-practitioner.png"
                   alt="certificado-practitioner"
+                  draggable="false"
                 />
               </a>
               <p className="text-center mt-3">Expires: August 02, 2027</p>
@@ -44,11 +48,26 @@ export const Badges = () => {
                 <img
                   src="/assets/certificado-javascript.1.png"
                   alt="certificado-javascript"
+                  draggable="false"
                 />
               </a>
               <p className="text-center mt-3">Issued: Jun 01, 2024</p>
             </div>
-
+            <div>
+              <a
+                href="https://itcertificate.us/campus/mod/customcert/verify_certificate.php"
+                target="_blank"
+                rel="noopener noreferrer"
+                draggable="false"
+              >
+                <img
+                  src="/assets/BackendDeveloper.png"
+                  alt="certificado-javascript"
+                  className="w-50.5"
+                />
+              </a>
+              <p className="text-center mt-3">verification code: saGltJefv9</p>
+            </div>
           </div>
         </div>
       </div>
