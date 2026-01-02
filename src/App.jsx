@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Header } from "./components/Header";
 import { Experiencia } from "./components/Experiencia";
 import { Proyectos } from "./components/Proyectos";
+import { Badges } from "./components/Badges";
 import { Academico } from "./components/Academico";
 import { Tecnologias } from "./components/Tecnologias";
 import { Footer } from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
       <main>
         <Experiencia />
         <Proyectos />
+        <Badges />
         <Academico />
         <Tecnologias />
       </main>

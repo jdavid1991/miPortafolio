@@ -28,12 +28,12 @@ export const Header = () => {
               >
                 Proyectos
               </a>
-              {/* <a
+              <a
                 className="hover:text-white hover:underline underline-offset-4 decoration-green-400 "
-                href=""
+                href="#badges"
               >
                 Badges
-              </a> */}
+              </a>
               <a
                 className="hover:text-white hover:underline underline-offset-4 decoration-green-400 "
                 href="#certificaciones"
