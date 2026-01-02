@@ -9,7 +9,7 @@
     "tecnologiaNombre2": "Kubernetes",
     "descripcion": "Proyecto microservicios Backend realizado en Spring Boot, persistiendo datos en postgres y MySQL, desplegado en contenedores Docker con Kubernetes.",
     "codeGitHubURL": "#",
-    "bg": "#e0234f"
+    "bg": "#3086d7"
   },
   {
     "id": 2,

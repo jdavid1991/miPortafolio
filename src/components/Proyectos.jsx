@@ -66,7 +66,7 @@ export const Proyectos = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="flex items-center justify-center gap-2 bg-black px-4 py-1 text-base rounded-full mt-4 w-30 outline-1 outline-offset-1 outline-white shadow-xl ">
+                    <div className="flex items-center justify-center gap-2 bg-black px-4 py-1 text-base rounded-full mt-4 w-30 outline-1 outline-offset-1 outline-white">
                       <svg className="w-5" viewBox="0 0 1024 1024" fill="none">
                         <path
                           fill-rule="evenodd"
