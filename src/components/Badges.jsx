@@ -5,7 +5,7 @@ export const Badges = () => {
         <div className="container mx-auto">
           <div
             id="badges"
-            className=" flex text-white sm:pt-15 pt-8 2xl:text-2xl text-xl gap-2 items-center font-bold sm:ml-5 p-2"
+            className=" flex text-white sm:pt-13 pt-8 2xl:text-2xl text-xl gap-2 items-center font-bold sm:ml-5 p-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
