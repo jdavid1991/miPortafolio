@@ -7,6 +7,7 @@ import { Badges } from "./components/Badges";
 import { Academico } from "./components/Academico";
 import { Tecnologias } from "./components/Tecnologias";
 import { Footer } from "./components/Footer";
+import { BotonBackStart } from "./components/BotonBackStart";
 
 function App() {
   if ("scrollRestoration" in window.history) {
@@ -26,6 +27,7 @@ function App() {
         <Badges />
         <Academico />
         <Tecnologias />
+        <BotonBackStart />
       </main>
       <Footer />
     </>
