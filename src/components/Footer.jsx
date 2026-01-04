@@ -5,9 +5,9 @@ export const Footer = () => {
     <footer>
       <div className="bg-[#0F172A] ">
         <div className="pt-15">
-          <div className=" container mx-auto  border  border-slate-600"></div>
+          <div className=" container mx-auto  border  border-slate-800"></div>
           <p className="text-center sm:pt-20 pt-12 pb-4 text-slate-300 text-sm">
-            © 2024 - {year} Portafolio elaborado por Juan David R. Todos los derechos reservados.
+            © 2024 - {year} Portafolio elaborado por Juan David R. <br /> Todos los derechos reservados.
           </p>
         </div>
       </div>
