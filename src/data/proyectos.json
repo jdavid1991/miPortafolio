@@ -8,8 +8,7 @@
     "tecnologia2": "/assets/kubernetes.svg",
     "tecnologiaNombre2": "Kubernetes",
     "descripcion": "Proyecto microservicios Backend realizado en Spring Boot, persistiendo datos en postgres y MySQL, desplegado en contenedores Docker con Kubernetes.",
-    "codeGitHubURL": "#",
-    "bg": "#3086d7"
+    "codeGitHubURL": "#"
   },
   {
     "id": 2,
@@ -20,7 +19,6 @@
     "tecnologia2": "/assets/MySQL_dark.svg",
     "tecnologiaNombre2": "MySQL",
     "descripcion": "CRUD en el lenjuage de Java, el cual permite crear, actualizar, eliminar y consultar desde una base de datos en MySQL",
-    "codeGitHubURL": "https://github.com/jdavid1991/gestion-de-libros-Java",
-    "bg": "#533f80"
+    "codeGitHubURL": "https://github.com/jdavid1991/gestion-de-libros-Java"
   }
 ]
