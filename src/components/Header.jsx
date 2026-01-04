@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <header>
       <Fade>
-        <div className="2xl:h-222.25 sm:h-173 h-194 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url('/assets/Develop.webp')] bg-contain sm:bg-cover sm:bg-center bg-fixed">
+        <div className="2xl:h-222.25 sm:h-183 h-194 bg-[linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.9)),url('/assets/Develop.webp')] bg-contain sm:bg-cover sm:bg-center bg-fixed">
           {/* nav */}
           <nav>
             <Slide direction="down">
@@ -94,9 +94,9 @@ export const Header = () => {
                 enfoque en automatización e infraestructura como código.
               </p>
               <div className="mt-11 flex gap-4 text-sm font-bold ">
-                <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-1 outline-green-400 animate__animated animate__pulse animate__infinite animate__fast">
+                <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-sm px-5 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-1 outline-green-400 hover:scale-105 transition-transform animate__animated animate__pulse animate__infinite animate__fast">
                   <a
-                    className="rounded-xl flex items-center gap-2 text-base"
+                    className="rounded-xl flex items-center gap-2 text-xl"
                     href="https://wa.me/573001234567"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -157,7 +157,7 @@ export const Header = () => {
               </p>
             </div>
             <div className="mt-7 flex gap-4 text-sm font-bold justify-center ">
-              <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-1 outline-green-400">
+              <button className="text-white bg-gray-900 hover:bg-gray-700 rounded-md px-4 py-1 hover:cursor-pointer flex items-center outline-2 outline-offset-1 outline-green-400 hover:scale-105 transition-transform">
                 <a
                   className="rounded-xl flex items-center gap-2 text-base"
                   href="https://wa.me/573001234567"

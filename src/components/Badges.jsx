@@ -37,6 +37,7 @@ export const Badges = () => {
                     src="/assets/certificado-practitioner.png"
                     alt="certificado-practitioner"
                     draggable="false"
+                    onContextMenu={(e) => e.preventDefault()}
                   />
                 </a>
                 <p className="text-center mt-3">Expires: August 02, 2027</p>
@@ -52,6 +53,7 @@ export const Badges = () => {
                     src="/assets/certificado-javascript.1.png"
                     alt="certificado-javascript"
                     draggable="false"
+                    onContextMenu={(e) => e.preventDefault()}
                   />
                 </a>
                 <p className="text-center mt-3">Issued: Jun 01, 2024</p>
@@ -62,6 +64,7 @@ export const Badges = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   draggable="false"
+                  onContextMenu={(e) => e.preventDefault()}
                 >
                   <img
                     src="/assets/BackendDeveloper.png"

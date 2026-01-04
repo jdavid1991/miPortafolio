@@ -28,7 +28,7 @@ export const Academico = () => {
               <h2>Certificaciones Académicas</h2>
             </div>
           </div>
-          <div className="sm:mt-12 2xl:mt-15 mt-9 w-[95%] mx-auto">
+          <div className="sm:mt-12 2xl:mt-15 mt-7 w-[95%] mx-auto">
             <Carousel />
           </div>
         </Fade>

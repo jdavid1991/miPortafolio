@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 export const Proyectos = () => {
   return (
     <section>
-      <div className="pb-6 bg-slate-900">
+      <div className="pb-10 bg-slate-900">
         <Fade delay={200}>
           <div className="">
             <div className="container mx-auto">
@@ -30,7 +30,7 @@ export const Proyectos = () => {
               </div>
             </div>
 
-            <div className="container mx-auto sm:mt-10 mt-5 space-y-9 ">
+            <div className="2xl:w-[60%] sm:w-[75%] container mx-auto sm:mt-10 mt-5 space-y-9 ">
               {proyectos.map((proyecto) => (
                 <div
                   key={proyecto.titulo}
@@ -50,7 +50,7 @@ export const Proyectos = () => {
                   {/* Contenido */}
                   <div className="">
                     <div>
-                      <h3 className="2xl:text-2xl text-xl capitalize font-semibold 2xl:mt-10 sm:mt-5 mt-2">
+                      <h3 className="2xl:text-2xl text-xl capitalize font-semibold sm:mt-5">
                         {proyecto.titulo}
                       </h3>
 
@@ -90,7 +90,7 @@ export const Proyectos = () => {
                     >
                       <div
                         className="flex items-center justify-center gap-2
-                          bg-black px-5 py-2 text-base rounded-full
+                          bg-black px-5 py-2 text-base rounded-xl
                            outline-1 outline-white/60
                           hover:scale-105 transition-transform w-30 mt-10"
                       >
