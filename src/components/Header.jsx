@@ -8,7 +8,7 @@ import foto from "/assets/foto.png";
 export const Header = () => {
   return (
     <header>
-      <BackgroundPaths className="bg-black w-full h-200 2xl:h-202.25 sm:h-199 ">
+      <BackgroundPaths className="bg-black w-full min-h-screen">
         <Fade>
           <div className="">
             {/* nav */}

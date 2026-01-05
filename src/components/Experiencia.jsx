@@ -46,7 +46,7 @@ export const Experiencia = () => {
                         ( {project.proyecto} )
                       </span>
                     </p>
-                    <ul className="2xl:w-290 sm:w-220 list-disc pl-6 mt-2 space-y-2 2xl:text-base text-sm ">
+                    <ul className="w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl 2xl:max-w-5xl list-disc pl-6 mt-2 space-y-2 text-sm 2xl:text-base">
                       <li>{project.funcion1}</li>
                       <li>{project.funcion2}</li>
                     </ul>
