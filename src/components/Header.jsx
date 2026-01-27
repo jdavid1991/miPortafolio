@@ -64,7 +64,7 @@ export const Header = () => {
                   onContextMenu={(e) => e.preventDefault()}
                 />
               </div>
-              <div className="lg:w-[85%] text-white text-lg sm:text-2xl 2xl:text-3xl mt-5 flex flex-col items-center justify-center text-center">
+              <div className="lg:w-[85%] text-white text-lg sm:text-2xl 2xl:text-3xl mt-5 flex flex-col items-center justify-center">
                 <h1 className="2xl:text-6xl sm:text-5xl text-4xl font-bold">
                   <TypeAnimation
                     sequence={[1000, "Hola,", 600, "Hola, soy Juan David"]}
@@ -72,18 +72,24 @@ export const Header = () => {
                     repeat={Infinity}
                   />
                 </h1>
-                <p className="mt-10 text-stone-200 sm:leading-11 font-semibold">
-                  <span className="sm:text-4xl text-2xl font-bold text-yellow-200">
-                    Ingeniero de sistemas
-                  </span>{" "}
-                  con +6 años de experiencia en IT, especializado en soporte
-                  técnico ( nivel I y II ) en entornos empresariales privadas y
-                  gubernamentales. <br /> <br />
-                  Actualmente me encuentro en formación continua en el área
-                  DevOps, realizando cursos y prácticas para adquirir bases
-                  sólidas en Docker, Kubernetes, Jenkins, Terraform y Linux, con
-                  enfoque en automatización e infraestructura como código.
-                </p>
+                <div className="mt-10 text-stone-200 sm:leading-relaxed font-semibold">
+                  <p>
+                    <span className="sm:text-4xl text-2xl font-bold text-yellow-200">
+                      Ingeniero de sistemas
+                    </span>{" "}
+                    con +6 años de experiencia en IT, especializado en soporte
+                    técnico ( nivel I y II ) en entornos empresariales privadas
+                    y gubernamentales.
+                  </p>
+                  <p className="mt-3">
+                    Cuento con experiencia realizando soporte y pruebas
+                    funcionales de aplicaciones, participando en ambientes de
+                    producción y preproducción, con énfasis en la revisión de
+                    logs, detección de fallas operativas y apoyo a la
+                    estabilidad del sistema, actividades alineadas con prácticas
+                    DevOps a nivel operativo.
+                  </p>
+                </div>
                 <button className="flex justify-center gap-4 md:gap-10 sm:mt-15 mt-10 ">
                   <a
                     href="https://wa.me/573001234567"

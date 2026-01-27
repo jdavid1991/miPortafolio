@@ -4,8 +4,8 @@
     "fecha": "Octubre 2024 - Septiembre 2025",
     "cargo": "Técnico de soporte y pruebas senior",
     "empresa": "macroproyectos SAS",
-    "funcion1": "Brindar soporte y pruebas funcionales de aplicaciones, enfocado en asegurar la calidad y continuidad operativa de los sistemas. Revisión de logs, para la identificación de fallas en procesos de la aplicación en entornos de desarrollo y producción.",
-    "funcion2": "Instalar, configurar y afinar componentes de software requeridos para cumplir la arquitectura definida, en el documento de especificaciones técnicas de los procesos automatizados.",
+    "funcion1": "Brindar soporte y pruebas a aplicaciones desplegadas, monitoreo y análisis de logs, trabajo con entornos Linux, uso de contenedores Docker y Kubernetes a nivel básico, ejecución de pruebas manuales y validación de servicios.",
+    "funcion2": "Instalar, configurar y afinar componentes de software requeridos para cumplir la arquitectura definida, en el documento de especificaciones técnicas de los procesos automatizados, apoyo en flujos de despliegue y continuidad operativa.",
     "image": "/assets/macro.png",
     "proyecto": "Secretaria Distrital de Planeación",
     "tiempoActividad": "12 meses"
