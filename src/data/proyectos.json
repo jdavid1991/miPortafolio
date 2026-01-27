@@ -8,7 +8,7 @@
     "tecnologia2": "/assets/kubernetes.svg",
     "tecnologiaNombre2": "Kubernetes",
     "descripcion": "Proyecto microservicios Backend realizado en Spring Boot, persistiendo datos en postgres y MySQL, desplegado en contenedores Docker con Kubernetes.",
-    "codeGitHubURL": "#"
+    "codeGitHubURL": "https://github.com/jdavid1991/docker-kubernetes"
   },
   {
     "id": 2,
