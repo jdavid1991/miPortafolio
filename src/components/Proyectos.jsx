@@ -4,79 +4,74 @@ import { Fade } from "react-awesome-reveal";
 export const Proyectos = () => {
   return (
     <section>
-      <div className="pb-10 bg-slate-900">
+      <div className="pb-16 bg-slate-900">
         <Fade delay={200}>
-          <div className="">
-            <div className="container mx-auto">
-              <div
-                id="proyectos"
-                className="flex text-white sm:pt-12 pt-5 2xl:text-2xl text-xl gap-2 items-center font-bold sm:ml-8 sm:p-0 p-2"
+          <div className="container mx-auto px-4">
+            <div
+              id="proyectos"
+              className="flex text-white sm:pt-14 pt-8 2xl:text-2xl text-xl gap-2 items-center font-bold sm:pl-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 shrink-0"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"
-                  />
-                </svg>
-                <h2>Proyectos</h2>
-              </div>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"
+                />
+              </svg>
+              <h2>Proyectos</h2>
             </div>
+          </div>
 
-            <div className="2xl:w-[60%] sm:w-[75%] container mx-auto sm:mt-10 mt-5 space-y-9 ">
+          <div className="container mx-auto sm:mt-10 mt-6 px-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
               {proyectos.map((proyecto) => (
                 <div
                   key={proyecto.titulo}
-                  className="grid grid-cols-1 sm:grid-cols-2
-                 gap-6 border border-white/20 rounded-2xl p-5
-                 min-h-75 bg-slate-800"
+                  className="flex flex-col rounded-2xl border border-white/10 bg-slate-800/60 hover:border-white/25 transition-colors overflow-hidden"
                 >
                   {/* Imagen */}
-                  <div className="">
+                  <div className="overflow-hidden">
                     <img
                       src={proyecto.image}
                       alt={proyecto.titulo}
-                      className="2xl:w-full 2xl:h-87.75 sm:w-170 sm:h-85.25 w-100 h-60 "
+                      className="w-full h-44 object-cover"
                     />
                   </div>
 
                   {/* Contenido */}
-                  <div className="">
+                  <div className="flex flex-col justify-between flex-1 p-4">
                     <div>
-                      <h3 className="2xl:text-2xl text-xl capitalize font-semibold sm:mt-5">
+                      <h3 className="text-base font-semibold text-white capitalize leading-tight">
                         {proyecto.titulo}
                       </h3>
-
-                      {/* Descripción */}
-                      <p className="mt-3 text-stone-300 2xl:text-base text-sm max-w-2xl">
+                      <p className="mt-2 text-stone-400 text-sm leading-relaxed line-clamp-3">
                         {proyecto.descripcion}
                       </p>
 
                       {/* Tecnologías */}
-                      <div className="flex flex-wrap items-center gap-2 text-sm mt-4">
-                        <div className="flex items-center gap-2 bg-indigo-900 px-3 py-1 rounded-full">
+                      <div className="flex flex-wrap gap-2 mt-3">
+                        <div className="flex items-center gap-1.5 bg-indigo-900/70 border border-indigo-700/50 px-2.5 py-1 rounded-full text-xs">
                           <img
-                            className="w-4"
+                            className="w-3.5 h-3.5"
                             src={proyecto.tecnologia1}
                             alt=""
                           />
-                          <p>{proyecto.tecnologiaNombre1}</p>
+                          <span>{proyecto.tecnologiaNombre1}</span>
                         </div>
-
-                        <div className="flex items-center gap-2 bg-indigo-900 px-3 py-1 rounded-full">
+                        <div className="flex items-center gap-1.5 bg-indigo-900/70 border border-indigo-700/50 px-2.5 py-1 rounded-full text-xs">
                           <img
-                            className="w-4"
+                            className="w-3.5 h-3.5"
                             src={proyecto.tecnologia2}
                             alt=""
                           />
-                          <p>{proyecto.tecnologiaNombre2}</p>
+                          <span>{proyecto.tecnologiaNombre2}</span>
                         </div>
                       </div>
                     </div>
@@ -86,29 +81,20 @@ export const Proyectos = () => {
                       href={proyecto.codeGitHubURL}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-6 w-fit"
+                      className="mt-4 w-fit flex items-center gap-2 bg-black/60 border border-white/20 hover:border-white/60 px-4 py-2 text-xs rounded-lg transition-all hover:scale-105 active:scale-95"
                     >
-                      <div
-                        className="flex items-center justify-center gap-2
-                          bg-black px-5 py-2 text-base rounded-xl
-                           outline-1 outline-white/60
-                          hover:scale-105 transition-transform w-30 mt-10"
+                      <svg
+                        className="w-4 h-4"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
                       >
-                        <svg
-                          className="w-5"
-                          viewBox="0 0 1024 1024"
-                          fill="none"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            clipRule="evenodd"
-                            d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
-                            transform="scale(64)"
-                            fill="#fff"
-                          />
-                        </svg>
-                        <p>Code</p>
-                      </div>
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"
+                        />
+                      </svg>
+                      <span>Ver código</span>
                     </a>
                   </div>
                 </div>
