@@ -30,7 +30,7 @@ export const Proyectos = () => {
           </div>
 
           <div className="container mx-auto sm:mt-10 mt-6 px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6  mx-auto">
               {proyectos.map((proyecto) => (
                 <div
                   key={proyecto.titulo}

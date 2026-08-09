@@ -63,7 +63,7 @@ export const Experiencia = () => {
                     <p className="text-sm text-yellow-400 font-semibold capitalize mt-1">
                       {project.empresa}
                       <span className="text-stone-400 font-normal">
-                        {" · "}
+                        {" - "}
                         {project.proyecto}
                       </span>
                     </p>

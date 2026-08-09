@@ -1,5 +1,16 @@
 [
   {
+    "id": 5,
+    "fecha": "Enero 2026 - Actualidad",
+    "cargo": "DevOps Junior",
+    "empresa": "Freelance",
+    "funcion1": "Participó en proyectos realizando soporte y pruebas manuales a aplicaciones en entornos cloud, optimizando la infraestructura mediante el despliegue de servicios en capas gratuitas de Azure para reducir los costos de pruebas en un 30%. ",
+    "funcion2": "Monitoreo, flujos de despliegue (CI/CD) y análisis de logs para la estabilidad del sistema y validar el correcto funcionamiento de servicios Cloud en ambientes SDLC y PROD. (Terraform, Git, GitHub Actions, GitLab, Pipelines, Azure, GCP.)",
+    "image": "/assets/macro.png",
+    "proyecto": "Multi-Tenant",
+    "tiempoActividad": "7 meses"
+  },
+  {
     "id": 4,
     "fecha": "Octubre 2024 - Septiembre 2025",
     "cargo": "Técnico de soporte y pruebas senior",

@@ -92,7 +92,7 @@ export const Header = () => {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/juan-david-ramirez-devops"
+              href="https://www.linkedin.com/in/juan-david-ramirez-rodriguez/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-stone-300 hover:text-[#0A66C2] transition-colors"
@@ -164,7 +164,7 @@ export const Header = () => {
                 <GitHubIcon />
               </a>
               <a
-                href="https://www.linkedin.com/in/juan-david-ramirez-devops"
+                href="https://www.linkedin.com/in/juan-david-ramirez-rodriguez/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-stone-300 hover:text-[#0A66C2] transition-colors"
@@ -180,7 +180,7 @@ export const Header = () => {
       {/* Hero */}
       <Fade>
         <div className="flex items-center justify-center w-full flex-col bg-[#0F172A]">
-          <div className="container mx-auto flex flex-col items-center justify-center pt-32 sm:pt-24 pb-16 px-4 text-center mt-10">
+          <div className="container mx-auto flex flex-col items-center justify-center pt-32 sm:pt-24 pb-16 px-4 text-center 2xl:mt-10">
             {/* Foto con glow */}
             <div className="relative mb-6">
               <div className="absolute inset-0 rounded-full bg-linear-to-r from-green-400 to-lime-300 blur-md opacity-50 scale-110" />
@@ -194,7 +194,7 @@ export const Header = () => {
             </div>
 
             {/* Nombre */}
-            <h1 className="2xl:text-7xl sm:text-6xl text-5xl font-bold text-white">
+            <h1 className="2xl:text-7xl sm:text-6xl text-3xl font-bold text-white mt-5">
               <TypeAnimation
                 sequence={[600, "Hola, soy Juan David", 2000, "", 500]}
                 speed={40}
@@ -204,14 +204,14 @@ export const Header = () => {
             </h1>
 
             {/* Badges de rol */}
-            <div className="mt-15 flex flex-wrap justify-center gap-2">
+            <div className="2xl:mt-15 mt-8 flex flex-wrap justify-center gap-2">
               <span className="px-3 py-1 rounded-full text-sm font-medium bg-green-400/10 text-green-400 border border-green-400/30">
                 DevOps
               </span>
-              <span className="px-3 py-1 rounded-full text-sm font-medium bg-blue-400/10 text-blue-400 border border-blue-400/30">
+              <span className="px-3 py-1 rounded-full text-sm font-medium bg-orange-400/10 text-orange-400 border border-orange-400/30">
                 AWS Cloud Practitioner
               </span>
-              <span className="px-3 py-1 rounded-full text-sm font-medium bg-orange-400/10 text-orange-400 border border-orange-400/30">
+              <span className="px-3 py-1 rounded-full text-sm font-medium bg-red-400/10 text-red-400 border border-red-400/30">
                 ITIL 4 Foundation
               </span>
             </div>
@@ -222,12 +222,14 @@ export const Header = () => {
                 <span className="sm:text-3xl text-xl font-bold text-yellow-200">
                   Ingeniero de sistemas
                 </span>{" "}
-                con +6 años de experiencia gestionando la disponibilidad de
-                plataformas empresariales. Especializado en el ciclo de vida del
-                software (QA/Soporte), con dominio en el análisis profundo de
-                logs y resolución de incidentes operativos. Actualmente enfocado
-                en prácticas DevOps para garantizar la estabilidad entre
-                ambientes de desarrollo y producción.
+                con +6 años de experiencia gestionando la disponibilidad y
+                estabilidad de plataformas empresariales críticas. Trayectoria
+                sólida que abarca soporte en sitio, atención de incidentes
+                complejos (L2) y aseguramiento de calidad (QA). Especialista en
+                el análisis profundo de logs y resolución de fallas operativas.
+                Actualmente me desempeño como Ingeniero DevOps Jr., garantizando
+                la continuidad y alineación entre ambientes de desarrollo y
+                producción.
               </p>
               {/* <p className="mt-">
                 Cuento con experiencia en soporte y pruebas funcionales de

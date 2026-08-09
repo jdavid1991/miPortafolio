@@ -1,6 +1,17 @@
 [
   {
-    "id": 1,
+    "id": 3,
+    "image": "/assets/tshirt.webp",
+    "titulo": "Shop Online - Microsoft Azure",
+    "tecnologia1": "/assets/node-js.svg",
+    "tecnologiaNombre1": "Node JS",
+    "tecnologia2": "/assets/microsoft-azure.svg",
+    "tecnologiaNombre2": "Azure",
+    "descripcion": "Proyecto CI-CD en microservicios Backend realizado en NodeJS y Frontend en Vue, persistiendo datos en MongoDB, desplegado en contenedores ACA en Azure, mediante IaC (Terraform), Workflows (GitHub Actions).",
+    "codeGitHubURL": "https://github.com/graveweave/tshirt"
+  },
+  {
+    "id": 2,
     "image": "/assets/docker-kubernetes.webp",
     "titulo": "backend docker - kubernetes",
     "tecnologia1": "/assets/docker.svg",
@@ -11,7 +22,7 @@
     "codeGitHubURL": "https://github.com/jdavid1991/docker-kubernetes"
   },
   {
-    "id": 2,
+    "id": 1,
    "image": "/assets/proyectoJava.webp",
     "titulo": "Aplicación GUI para la gestión de libros",
     "tecnologia1": "/assets/java.svg",
