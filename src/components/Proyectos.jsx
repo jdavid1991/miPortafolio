@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 export const Proyectos = () => {
   return (
     <section>
-      <div className="pb-16 bg-slate-900">
+      <div className="2xl:pb-16 pb-8 bg-slate-900">
         <Fade delay={200}>
           <div className="container mx-auto px-4">
             <div

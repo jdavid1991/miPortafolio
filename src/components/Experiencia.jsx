@@ -23,7 +23,7 @@ export const Experiencia = () => {
   return (
     <section>
       {/* Desktop */}
-      <div className="bg-slate-950 pb-16">
+      <div className="bg-slate-950">
         <div className="hidden sm:flex flex-col container mx-auto px-8">
           <Fade delay={100}>
             <div className="flex text-white pt-12 2xl:text-2xl text-xl gap-2 items-center font-bold">
@@ -80,8 +80,8 @@ export const Experiencia = () => {
       </div>
 
       {/* Mobile */}
-      <div className="sm:hidden bg-[#020617] px-4 pb-10">
-        <div className="flex text-white pt-6 text-xl gap-2 items-center font-bold">
+      <div className="sm:hidden bg-[#020617] px-4">
+        <div className="flex text-white text-xl gap-2 items-center font-bold pt-9">
           <BriefcaseIcon />
           <h2>Experiencia Laboral</h2>
         </div>

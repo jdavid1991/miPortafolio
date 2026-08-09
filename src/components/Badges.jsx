@@ -27,7 +27,7 @@ const badges = [
 export const Badges = () => {
   return (
     <section>
-      <div className="bg-slate-950 pb-16">
+      <div className="bg-slate-950 2xl:pb-16 pb-8">
         <Fade delay={200}>
           <div className="container mx-auto px-4">
             <div
