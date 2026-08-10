@@ -39,7 +39,7 @@ export const Footer = () => {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/juan-david-ramirez-devops"
+              href="https://www.linkedin.com/in/juan-david-ramirez-rodriguez/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-[#0A66C2] transition-colors"

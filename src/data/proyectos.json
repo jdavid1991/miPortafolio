@@ -7,7 +7,7 @@
     "tecnologiaNombre1": "Node JS",
     "tecnologia2": "/assets/microsoft-azure.svg",
     "tecnologiaNombre2": "Azure",
-    "descripcion": "Proyecto CI-CD en microservicios Backend realizado en NodeJS y Frontend en Vue, persistiendo datos en MongoDB, desplegado en contenedores ACA en Azure, mediante IaC (Terraform), Workflows (GitHub Actions).",
+    "descripcion": "Infraestructura diseñada bajo el principio de Alta Disponibilidad y se gestiona completamente como Código (IaC) mediante Terraform. El despliegue de los microservicios se realiza de forma automática a través de pipelines de CI/CD en GitHub Actions, orquestando y ejecutando los contenedores sobre Azure Container Apps (ACA) para aprovechar los beneficios de escalabilidad horizontal y serverless en la nube",
     "codeGitHubURL": "https://github.com/graveweave/tshirt"
   },
   {
