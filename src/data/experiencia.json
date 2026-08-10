@@ -1,6 +1,6 @@
 [
   {
-    "id": 5,
+    "id": 4,
     "fecha": "Enero 2026 - Actualidad",
     "cargo": "DevOps Junior",
     "empresa": "Freelance",
@@ -11,7 +11,7 @@
     "tiempoActividad": "7 meses"
   },
   {
-    "id": 4,
+    "id": 3,
     "fecha": "Octubre 2024 - Septiembre 2025",
     "cargo": "Técnico de soporte y pruebas senior",
     "empresa": "macroproyectos SAS",
@@ -22,26 +22,15 @@
     "tiempoActividad": "11 meses"
   },
   {
-    "id": 3,
-    "fecha": "Febrero 2022 - Enero 2023",
-    "cargo": "Técnico de soporte",
-    "empresa": "selcomp",
-    "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, TEAMS, SharePoint.)",
-    "funcion2" : "Documentación y escalamiento de tickets a segundo nivel, configuración de impresoras en red, y local, formateo de equipos Windows 10 e instalación de Office 365.",
-    "image": "/assets/selcomp.png",
-    "proyecto": "Instituto de Bienestar Familiar",
-    "tiempoActividad": "10 meses"
-  },
-  {
     "id": 2,
-    "fecha": "Mayo 2021 - Febrero 2022",
+    "fecha": "Mayo 2021 - Enero 2023",
     "cargo": "Técnico de soporte",
-    "empresa": "microhard",
+    "empresa": "microhard - selcomp ",
     "funcion1": "Brindar soporte en sitio nivel I de equipos portátiles, desktop, perfilamiento de usuario de red (Dominio, Outlook, impresora, TEAMS, SharePoint.)",
     "funcion2" : "Documentación y escalamiento de tickets a segundo nivel, configuración de impresoras en red, y local, formateo de equipos Windows 10 e instalación de Office 365.",
     "image": "/assets/selcomp.png",
     "proyecto": "Instituto de Bienestar Familiar",
-    "tiempoActividad": "9 meses"
+    "tiempoActividad": "1 año y 8 meses"
   },
   {
     "id": 1,
