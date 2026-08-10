@@ -51,29 +51,36 @@ export const Badges = () => {
               <h2>Badges</h2>
             </div>
 
-            <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-8 justify-items-center">
+            <div className="mt-10 grid grid-cols-2 sm:grid-cols-5 gap-8 justify-items-center">
               {badges.map(({ href, src, alt, label, sublabel }) => (
-                <a
+                <div
                   key={href}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="group flex flex-col items-center gap-4 bg-slate-900/50 border border-slate-700/50 rounded-2xl p-6 w-full max-w-xs hover:border-slate-500 transition-colors"
                 >
-                  <img
-                    src={src}
-                    alt={alt}
-                    className="w-36 h-36 object-contain group-hover:scale-105 transition-transform"
-                    draggable="false"
-                    onContextMenu={(e) => e.preventDefault()}
-                  />
-                  <div className="text-center">
-                    <p className="font-semibold text-sm text-stone-100">
+                  {/* El enlace solo envuelve la imagen y el título principal */}
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-col items-center gap-4 text-center w-full focus:outline-none"
+                  >
+                    <img
+                      src={src}
+                      alt={alt}
+                      className="w-36 h-36 object-contain group-hover:scale-105 transition-transform"
+                      draggable="false"
+                      onContextMenu={(e) => e.preventDefault()}
+                    />
+                    <p className="font-semibold text-sm text-stone-100 group-hover:text-stone-300 transition-colors">
                       {label}
                     </p>
+                  </a>
+
+                  {/* Este elemento queda fuera del anchor, por lo tanto no es clickeable */}
+                  <div className="text-center w-full">
                     <p className="text-stone-400 text-xs mt-1">{sublabel}</p>
                   </div>
-                </a>
+                </div>
               ))}
             </div>
           </div>
