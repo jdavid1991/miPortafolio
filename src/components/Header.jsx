@@ -211,6 +211,9 @@ export const Header = () => {
               <span className="px-3 py-1 rounded-full text-sm font-medium bg-orange-400/10 text-orange-400 border border-orange-400/30">
                 AWS Cloud Practitioner
               </span>
+              <span className="px-3 py-1 rounded-full text-sm font-medium bg-blue-400/10 text-blue-400 border border-blue-400/30">
+                Azure Fundamentals (AZ-900)
+              </span>
               <span className="px-3 py-1 rounded-full text-sm font-medium bg-red-400/10 text-red-400 border border-red-400/30">
                 ITIL 4 Foundation
               </span>

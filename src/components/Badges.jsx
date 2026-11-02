@@ -3,6 +3,13 @@ import { Fade } from "react-awesome-reveal";
 const badges = [
   {
     href: "https://www.credly.com/badges/0664864d-c996-44b1-8290-096c605ff4d5/public_url",
+    src: "/assets/azure-fundamentals.png",
+    alt: "AZ-900 Azure Microsoft Certified: Aspectos básicos de Azure",
+    label: "Aspectos básicos de Azure",
+    sublabel: "Issued: Sep 26, 2026",
+  },
+  {
+    href: "https://www.credly.com/badges/0664864d-c996-44b1-8290-096c605ff4d5/public_url",
     src: "/assets/certificado-practitioner.png",
     alt: "AWS Cloud Practitioner",
     label: "AWS Cloud Practitioner",
