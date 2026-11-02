@@ -2,7 +2,7 @@ import { Fade } from "react-awesome-reveal";
 
 const badges = [
   {
-    href: "https://www.credly.com/badges/0664864d-c996-44b1-8290-096c605ff4d5/public_url",
+    href: "https://learn.microsoft.com/es-es/users/juandavidramirezrodriguez-8931/credentials/a36d0b9858bc49d",
     src: "/assets/azure-fundamentals.png",
     alt: "AZ-900 Azure Microsoft Certified: Aspectos básicos de Azure",
     label: "Aspectos básicos de Azure",
